@@ -46,7 +46,7 @@ class BlurActivity : AppCompatActivity() {
             viewModel.outputUri?.let { currentUri ->
                 val actionView = Intent(Intent.ACTION_VIEW, currentUri)
                 actionView.resolveActivity(packageManager)?.run {
-                    startActivity(actionView)
+                    startActivity(actionView)sdkjaldjasld
                 }
             }
         }
